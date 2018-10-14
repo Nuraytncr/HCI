@@ -1,0 +1,171 @@
+*{
+	font-family: "Helvetica", "Ariel", sans-serif;
+	text-align: justify;
+}
+
+/*NAVIGATION*/
+header {
+	background: #f1a4c7;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 5px solid #f1a4c7;
+}
+ 
+ul {
+	list-style: none;
+}
+ 
+li {
+	display: inline-block;
+	float: left;
+	padding: 3px
+}
+ 
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+ 
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	margin: -30px;
+	float: left;
+	width: 200px;
+	height: 200px;
+	background: url(../images/logo.png) no-repeat center;
+	display: block;
+}
+
+nav {
+	float: right;
+	padding: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#menu-icon {
+	background: url(../images/menu-icon.png) no-repeat center;
+	display: hidden;
+	width: 32px;
+	height: 32px;
+}
+
+/*ABOUT*/
+.wrapper {
+ max-width:960px;
+ margin:0 auto;
+ font-family: proxima-nova,sans-serif;
+ -webkit-animation-delay: 4s; /* Chrome, Safari, Opera */
+ animation-delay: 2s;
+}
+
+h1 {
+ 	text-transform:capitalize;
+ 	font-size:2em;
+ 	padding:90px 0 1% 0;
+ 	color:#001833;
+ 	font-weight:800;
+ }
+
+h3 {
+ 	text-transform:capitalize;
+ 	font-size:1.5em;
+ 	padding:90px 0 1% 0;
+ 	color:#001833;
+ 	font-weight:800;
+ }
+
+.about {
+ 	padding:4% 0;
+}
+
+.about p {
+	 font-family: proxima-nova,sans-serif;
+	 font-style: normal;
+	 font-weight: 200;
+	 line-height: 1.8;
+	 color: #616569;
+	 letter-spacing: .03em;
+	 margin: 10px auto;
+	 font-size:1em;
+	 padding: auto;
+}
+
+/*Foto's*/
+.pijl{
+	display: inline-block;
+	height: 138px;
+	width: 122px;
+}
+
+.image {
+  display: inline-block;
+  margin-top: 0px; 
+  margin-left: 150px;
+  width: 260px;
+  height: 347px;
+}
+
+/*FOOTER*/
+footer{
+	background-color: #f1a4c7;
+}
+
+#footer_container {
+	max-width: 940px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 2%;
+}
+
+.copyright_text {
+	font-weight: 400;
+	padding-top: 2%;
+	float: left;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 0.65em;
+	color: white;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width : 1279px) {
+ 
+	header {
+		position: absolute;
+	}
+	 
+	#menu-icon {
+		display:inline-block;
+	}
+	 
+	nav ul, nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #c5c5c5;
+		right: 10px;
+		top: 65px;
+		width: 35%;
+	}
+	 
+	nav:hover ul {
+		display: block;
+	}
+	 
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 15px 0;
+		margin: 0;
+	}
+}
