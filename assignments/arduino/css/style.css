@@ -122,7 +122,11 @@ p {
 	display: inline-block;
 	float: left;
 	padding-right: 15px;
-	width: 400px;
+	width: 300px;
+}
+
+#exercise{
+	height: 400px;
 }
 
 /*FOOTER*/
