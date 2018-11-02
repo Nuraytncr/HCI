@@ -115,7 +115,7 @@ p {
 	display: inline-block;
 	float: right;
 	padding-left: 15px;
-	width: 300px;
+	width: 250px;
 }
 
 .links{
@@ -123,6 +123,10 @@ p {
 	float: left;
 	padding-right: 15px;
 	width: 400px;
+}
+
+#exercise{
+	height: 500px;
 }
 
 /*FOOTER*/

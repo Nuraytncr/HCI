@@ -3,6 +3,14 @@
 	text-align: justify;
 }
 
+.reflect {
+	background: #f1a4c7;
+}
+
+.bron {
+	color: #0645AD;
+}
+
 /*NAVIGATION*/
 header {
 	background: #f1a4c7;
@@ -74,13 +82,21 @@ h1 {
  	font-weight:800;
  }
 
-h3 {
+h2 {
  	text-transform:capitalize;
  	font-size:1.5em;
- 	padding:30px 0 1% 0;
+ 	padding-top:30px;
  	color:#001833;
  	font-weight:800;
- }
+}
+
+h3 {
+ 	text-transform:capitalize;
+ 	font-size:1em;
+ 	padding-top:15px;
+ 	color:#001833;
+ 	font-weight:800;
+}
 
 p {
 	 font-family: proxima-nova,sans-serif;
@@ -96,18 +112,17 @@ p {
 
 /*Foto's*/
 .trap{
+	display: inline-block;
 	float: right;
 	padding-left: 15px;
-	height: 313px;
-	widows: 239px;
+	width: 400px;
 }
 
-.image {
-  display: inline-block;
-  margin-top: 0px; 
-  margin-left: 150px;
-  width: 260px;
-  height: 347px;
+.muur{
+	display: inline-block;
+	float: left;
+	padding-right: 15px;
+	width: 400px;
 }
 
 /*FOOTER*/
